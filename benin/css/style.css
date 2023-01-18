@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&display=swap');
+/*font-family: 'Redressed', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&family=Roboto&display=swap');
+/*font-family: 'Merriweather', serif;*/
+
+
+/* Page d'acceuil*/
+
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+    font-family: 'Merriweather', cursive;
+}
+
+.grey {
+    color: grey;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.color {
+    color: rgb(35, 52, 104);
+}
+
+.bg {
+    background-color: #fff;
+}
+
+.bgb {
+    background-color: rgb(35, 52, 104);
+}
+
+.ml {
+    margin-left: 70px;
+}
+
+.pl {
+    padding-left: 40px;
+}
+
+.gold {
+    color: rgb(125, 104, 37);
+}
+
+.italic {
+    font-style: italic;
+}
+.s {
+    font-size: 40px;
+}
+.bblue {
+    color: rgb(0, 0, 254)
+}
+.pll {
+    padding-left: 100px;
+} 
+.bb-navbar {
+    background-color: rgba(35, 52, 104, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(35, 52, 104, 0.54);
+    z-index: 99;
+}
+.navbar-marg {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fs {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.fss {
+    font-size: 40px;
+}
+
+.bb-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.bb-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: rgb(125, 104, 37);
+    border-bottom-color: var(--bs-teal);
+}
+
+.bb-navbar .nav-link:active {
+    font-weight: bolder;
+    color: #fff;
+}
+.btn-order {
+    color: rgb(0, 0, 254)
+    border-color: rgb(0, 0, 254);
+    transition: 0.5s;
+}
+
+.ec-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/plant.jpg') center center fixed no-repeat;
+}
+.banner, 
+.order-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/plant.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.order-form {
+    height: 500px;
+}
+
+.banner .banner-des {
+    font-size: 100px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.banner-text {
+    font-size: 30px;
+}
+
+.p-text {
+    font-size: 15px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.bb-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img/banniere6.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.bb-modalite {
+    background-color: rgb(35, 52, 104);
+    height: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-order:hover, 
+.btn-order:active {
+    color: #fff;
+    /*background-color: var(--bs-teal);*/
+    background-color: rgb(0, 0, 254);
+    border-color: #fff;
+}
+
+.btn-order {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.mg-top {
+    margin-top: 2px;
+} 
+
+.mg-bottom {
+    margin-bottom: 2px;
+}
+.bold {
+    font-weight: bold;
+}
+#content {
+    padding-top: 150px;
+} 
+
+footer {
+    color: #fff;
+    background-color: rgb(0, 0, 254);
+    margin: 0px;
+    padding: 0px;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+@media screen and (max-width:766px) {
+    .bb-modalite {
+        padding-top: 50px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .small {
+      display: none;
+      padding-top: 3px;
+    }
+
+    .banner .banner-des {
+        font-size: 50px;
+    }
+    .s {
+        font-size: 20px;
+    }
+
+    img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .bb-navbar img {
+        width: 100px;
+        height: 55px;
+        margin-left: 90px;
+    }
+
+    .bb-navbar .title {
+        font-size: 30px;
+    }
+  }
+
+  @media screen and (min-width:576px) {
+    .med {
+      display: none;
+    }
+  }
+
+
+  /* A propos */
