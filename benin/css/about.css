@@ -7,8 +7,11 @@ body {
     box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width:576px) {
     body {
         margin: 10px 40px;
     }
 }
+
